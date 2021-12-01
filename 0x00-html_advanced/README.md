@@ -2,4 +2,4 @@
 
 ## Resources
 Read or watch:
-- (HTML 5.2)[https://html.spec.whatwg.org/multipage/]
+- [HTML 5.2](https://html.spec.whatwg.org/multipage/)
