@@ -18,13 +18,13 @@ Projects
 Wiki
 Security
 Insights
-holbertonschool-web_front_end/0x05-form/04-styles.css
+holbertonschool-web_front_end/0x05-form/05-styles.css
 @hfog2066
-hfog2066 3. create the inputs
-Latest commit f142765 14 hours ago
+hfog2066 4. add help messages
+Latest commit ee09253 14 hours ago
  History
  1 contributor
-Executable File  712 lines (573 sloc)  15.8 KB
+Executable File  756 lines (608 sloc)  16.5 KB
   
 
 /* SUMMARY
@@ -737,4 +737,48 @@ input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
 ::placeholder {
   font-style: italic;
   font-size: var(--font-size-small);
+}
+
+/* Form group
+============================= */
+
+.form-group {
+  padding: 1rem;
+  margin: 0;
+  background-color: var(--color-white);
+}
+
+.form-group:focus-within {
+  background-color: var(--color-light-grey);
+  transition: .3s;
+}
+
+/* Form field
+============================= */
+
+.form-field-container {
+  position: relative;
+}
+
+.form-field-icon {
+  font-style: normal;
+}
+
+/* Form help
+============================= */
+
+.form-group .form-help {
+  margin: 0;
+  line-height: 1.3;
+  letter-spacing: .019rem;
+  color: var(--color-dark-grey);
+  font-size: var(--font-size-small);
+  max-height: 0;
+  transition: .3s;
+  overflow: hidden;
+}
+
+.form-group:focus-within .form-help {
+  max-height: 20rem;
+  margin: .4rem 0 0;
 }
