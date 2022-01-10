@@ -15,6 +15,12 @@
     --font-size-xx-large: 4.8rem;
 }
 
+html 
+{
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
 body {
     font-family: var(--font-family-base);
     font-size: var(--font-size-medium);
@@ -24,11 +30,6 @@ h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-family-title);
 }
 
-html 
-{
-    scroll-behavior: smooth;
-    font-size: 63.5%;
-}
 
 body, a {
     color: var(--text-color);
